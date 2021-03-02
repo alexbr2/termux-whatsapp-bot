@@ -402,22 +402,24 @@ async function starts() {
                         const q = args.join(' ')
                         
                         mess = {
-                                wait: '⌛ Sedang di Prosess ⌛',
-                                succsess: '✔️ Berhasil ✔️',
-                                levelon: '❬ ✔ ❭ *leveling telah aktif*',
-                                levelnoton: `❬ X ❭  *disable leveling*`,
-                                levelnol: '*LEVEL KAKAK MASIH* 0 °-°',
-                                error: {
-                                	    stick: '[❗] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-                                        Iv: '❌ Link tidak valid ❌',
-                                },
-                        	only: {
-                        	        group: '[❗] Perintah ini hanya bisa di gunakan dalam group! ❌',
-                                        ownerG: `[❗] Perintah ini hanya bisa di gunakan oleh owner group! ❌`,
-                        	        admin: `[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌`,
-                                        Badmin: `[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌`,
-                                        daftarB: `──「 BELUM REGISTER 」──\nHalo kak !\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Nazwa|16`,
-                                }
+                        	only: wait: '⌛ Por favor, aguarde. Processo em andamento... ⌛',
+				success: '✔️ Sucesso ✔️',
+				levelon: '❬ ✔ ❭ *habilitar Level*',
+				leveloff: ' ❬ X ❭  *desabilitar Level*',
+				levelnoton: '❬ X ❭ *level não ativo*',
+				levelnol: '*Pqp kskst level* 0 ',
+				error: {
+					stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+					Iv: '❌ Link inválido ❌'
+				},
+				only: {
+					group: '[❗] Este comando só pode ser usado em grupos! ❌',
+					ownerG: '[❗] Este comando só pode ser usado pelo grupo proprietário! ❌',
+					ownerB: '[❗] Este comando só pode ser usado pelo Guilherme! ❌',
+					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
+					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
+					daftarB: `── 「REGISTRE-SE」 ──\nOlá como!\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}cadastrar nome|idade\nExemplo : ${prefix}cadastrar Guilherme|18`,
+				}
                         }
                 	const apakah = ['Ya','Tidak']
         	        const bisakah = ['Bisa','Tidak Bisa']
