@@ -418,7 +418,7 @@ async function starts() {
 					ownerB: '[❗] Este comando só pode ser usado pelo Guilherme! ❌',
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
-					daftarB: `── 「REGISTRE-SE」 ──\nOlá como!\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}cadastrar nome|idade\nExemplo : ${prefix}cadastrar Guilherme|18`,
+					daftarB: `── 「REGISTRE-SE」 ──\nOlá como!\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}cadastrar nome|idade\nExemplo : ${prefix}cadastrar Alex|20`,
 				}
                         }
                 	const apakah = ['Ya','Tidak']
